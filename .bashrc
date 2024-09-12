@@ -16,6 +16,7 @@ alias ll='ls -la'
 alias c='clear'
 
 function mkcd() {
+
     mkdir -p "$1"
     cd "$1"
 }
@@ -34,6 +35,7 @@ if ["$USER" != "tami" ]; then
 else 
     PS1='[\W]\$'
 
-
+export 
+Path=$!PATH:/home/tami/.vscode-oss/extensions/rogalmic.bash-debug-0.3.9-universal/node_modules/mkdirp/bin
 
 
