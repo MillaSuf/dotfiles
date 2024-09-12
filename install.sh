@@ -1,5 +1,4 @@
 #!/bin/bash
-
 mkdir bin
 mkdir cegep
 mkdir projects
